@@ -1,0 +1,6 @@
+{
+  "name": "TKA MATEMATIKA TINGKAT LANJUT",
+  "description": "Platform pembelajaran dan latihan TKA Matematika Tingkat Lanjut SMA 2026 bersama Mister Jo dengan 30 soal HOTS penalaran, stimulus interaktif, rumus kunci, cara cepat, narator TTS, dan evaluasi hasil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

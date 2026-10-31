@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-blue: #0052FF;
+    --navy-dark: #0A192F;
+    --electric-blue: #0066FF;
+    --ice-blue: #EFF6FF;
+  }
+
+  body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* KaTeX custom sizing & overflow management */
+.katex-display {
+  margin: 1rem 0 !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  padding: 0.5rem 0 !important;
+  font-size: 1.15em !important;
+}
+
+.katex {
+  font-size: 1.08em !important;
+  line-height: 1.2;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Subtle Indonesian Batik Pattern in Borders */
+.batik-pattern-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 48px;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.08;
+  background-image: radial-gradient(#0052FF 1px, transparent 1px),
+    radial-gradient(#0052FF 1px, #ffffff 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.batik-pattern-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 48px;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.08;
+  background-image: radial-gradient(#0052FF 1px, transparent 1px),
+    radial-gradient(#0052FF 1px, #ffffff 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
